@@ -43,7 +43,10 @@ and any AI tool can read it — Grok Bot, Claude, ChatGPT, Cursor.
 - **Owner:** [@nixeniego](https://x.com/nixeniego)
 - **Time zone:** Asia/Manila
 - **What it tracks:**
-  - **AI & agents** — Grok Bot, Claude, ChatGPT, agents, models, prompts, AI tools
+  - **Grok Bot tips** — features, skills, routines, prompts and workflows for Grok Bot
+  - **Claude tips** — Claude, Claude Code, skills, MCP, prompts and workflows
+  - **ChatGPT tips** — ChatGPT, custom GPTs, prompts and workflows
+  - **AI & agents** — everything else AI: agents, models, prompts, AI coding and media tools
   - **Marketing tools & automation** — marketing software, automations, AI marketing tools
   - **SEO & AEO** — search rankings and getting cited by AI answer engines
   - **Tech startups** — ideas, building, launching, fundraising, founder lessons

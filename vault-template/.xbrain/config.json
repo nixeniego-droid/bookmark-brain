@@ -9,13 +9,45 @@
   "pick_expiry_days": 30,
   "interests": [
     {
+      "slug": "grok-bot-tips",
+      "title": "Grok Bot tips",
+      "desc": "tips, tricks, features, skills, routines and plugins for Grok Bot and Grok",
+      "topics": {
+        "grok-features": "new Grok Bot / Grok features and updates",
+        "grok-skills-routines": "skills, routines, scheduled tasks, Marketplace plugins",
+        "grok-prompts": "prompts and ways of asking that work well in Grok",
+        "grok-workflows": "real workflows and use cases people run with Grok Bot"
+      }
+    },
+    {
+      "slug": "claude-tips",
+      "title": "Claude tips",
+      "desc": "tips, tricks, features and workflows for Claude, Claude Code, skills, projects and MCP",
+      "topics": {
+        "claude-features": "new Claude features and updates",
+        "claude-code": "Claude Code: CLAUDE.md, hooks, slash commands, subagents, plugins",
+        "claude-skills-mcp": "skills, MCP servers, connectors, projects",
+        "claude-prompts": "prompts and ways of asking that work well in Claude",
+        "claude-workflows": "real workflows and use cases people run with Claude"
+      }
+    },
+    {
+      "slug": "chatgpt-tips",
+      "title": "ChatGPT tips",
+      "desc": "tips, tricks, features and workflows for ChatGPT, custom GPTs and OpenAI tools",
+      "topics": {
+        "chatgpt-features": "new ChatGPT features and updates",
+        "custom-gpts": "custom GPTs, projects, memory, settings",
+        "chatgpt-prompts": "prompts and ways of asking that work well in ChatGPT",
+        "chatgpt-workflows": "real workflows and use cases people run with ChatGPT"
+      }
+    },
+    {
       "slug": "ai-agents",
       "title": "AI & agents",
-      "desc": "Grok Bot, Claude, ChatGPT and other assistants, AI agents, models, prompts, AI coding and media tools",
+      "desc": "AI beyond the three assistants with their own folders: other assistants, agents, models, prompts, AI coding and media tools",
       "topics": {
-        "grok-bot": "Grok Bot and Grok: features, skills, routines, plugins, tips",
-        "claude": "Claude, Claude Code, skills, projects, MCP, Claude workflows",
-        "other-assistants": "ChatGPT, Gemini, Perplexity and other AI assistants",
+        "other-assistants": "Gemini, Perplexity, Copilot and other AI assistants (Grok Bot, Claude and ChatGPT have their own folders)",
         "ai-agents": "agents and agent platforms, computer use, multi-agent setups, autonomous workflows",
         "models": "new models, comparisons, local/open models, pricing and limits",
         "prompting": "prompt techniques, templates and prompt libraries",

@@ -3,7 +3,9 @@
 Open your agent in the vault (or use the bookmark-brain skill in Grok Bot) and ask:
 
 - What have I saved about Grok Bot? Newest first, one line each.
+- Give me my Grok Bot tips as a cheat sheet.
 - What Claude tips and skills have I saved?
+- Which ChatGPT tips have I saved but never tried?
 - Which startup grants have deadlines in the next 30 days? Which ones can I apply to from the Philippines?
 - What AEO tactics have I saved for getting cited by ChatGPT and Perplexity?
 - Which marketing automations have I saved that I could build this week?

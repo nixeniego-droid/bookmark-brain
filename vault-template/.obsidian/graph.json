@@ -8,6 +8,27 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
+      "query": "path:interests/grok-bot-tips OR [interest:grok-bot-tips]",
+      "color": {
+        "a": 1,
+        "rgb": 1752220
+      }
+    },
+    {
+      "query": "path:interests/claude-tips OR [interest:claude-tips]",
+      "color": {
+        "a": 1,
+        "rgb": 14251782
+      }
+    },
+    {
+      "query": "path:interests/chatgpt-tips OR [interest:chatgpt-tips]",
+      "color": {
+        "a": 1,
+        "rgb": 1092093
+      }
+    },
+    {
       "query": "path:interests/ai-agents OR [interest:ai-agents]",
       "color": {
         "a": 1,

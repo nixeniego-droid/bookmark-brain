@@ -96,7 +96,10 @@ Copy files as they are. Don't add extras.
 
 This kit comes set up for **@nixeniego** (time zone `Asia/Manila`) with these interests:
 
-- **AI & agents** (`ai-agents`) — Grok Bot, Claude, ChatGPT, agents, models, prompts, AI tools
+- **Grok Bot tips** (`grok-bot-tips`) — tips, features, skills, routines and workflows for Grok Bot
+- **Claude tips** (`claude-tips`) — tips for Claude, Claude Code, skills, MCP and projects
+- **ChatGPT tips** (`chatgpt-tips`) — tips for ChatGPT, custom GPTs and OpenAI tools
+- **AI & agents** (`ai-agents`) — all other AI: agents, models, prompts, AI coding and media tools
 - **Marketing tools & automation** (`marketing-tools`) — marketing software, automations, AI marketing tools
 - **SEO & AEO** (`seo-aeo`) — search rankings and getting cited by AI answer engines
 - **Tech startups** (`startups`) — ideas, building, launching, fundraising, founder lessons
@@ -108,9 +111,12 @@ kept — a post that fits none of them goes to `other`, never skipped.
 
 Ask:
 
-> Your Bookmark Brain tracks **AI & agents**, **Marketing tools & automation**, **SEO & AEO**,
+> Your Bookmark Brain tracks **Grok Bot tips**, **Claude tips**, **ChatGPT tips**, **AI & agents**, **Marketing tools & automation**, **SEO & AEO**,
 > **Tech startups** and **Grants & funding**. Want to keep those as they are, rename any, or add
 > more? For any new one, tell me in a few words what you want out of it.
+
+A tip about Grok Bot, Claude or ChatGPT always goes to that tool's tips folder first; use `also:`
+for a second interest it fits.
 
 For each **new** interest:
 
