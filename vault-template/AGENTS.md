@@ -49,6 +49,11 @@ kind, value (1-3), action, status, likes, bookmarks, views`, plus
 
 ## Writing rules
 
+- **Links:** prefix every wiki link with `link_prefix` from `.xbrain/config.json` (empty when this
+  folder is its own Obsidian vault; e.g. `Bookmark Brain/` when it lives inside a bigger vault).
+- **Stay in this folder.** If it sits inside a bigger Obsidian vault, never edit or write the
+  owner's other notes or the vault's `.obsidian/` settings.
+
 - **Never edit a raw note's body.** Only `status:` (on the owner's word) and the sorting fields
   (`interest, also, topics, summary, kind, value, action`, and the grant fields
   `deadline, amount, eligibility, apply_url`) may change.

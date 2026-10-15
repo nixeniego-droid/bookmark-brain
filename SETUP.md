@@ -32,18 +32,33 @@ If something isn't covered here, ask the user instead of guessing.
 Ask the user:
 
 > Where should your Bookmark Brain live?
-> **A) A folder on your computer** — best if you'll browse it in Obsidian. Default: `~/bookmark-brain-vault`.
+> **A) A new folder on your computer** — its own fresh Obsidian vault. Default: `~/bookmark-brain-vault`.
 > **B) A private GitHub repo** called `bookmark-brain-vault` — lets Grok update it while your
 > computer is off, *if* Grok can push to it (for example with a GitHub token scoped to that one repo).
 > Heads-up: Grok's built-in GitHub connector has been seen to read repos but not save to them.
 > You can do both: the private repo, cloned to your computer.
+> **C) Inside your existing Obsidian vault** — in a subfolder called `Bookmark Brain/`, so your
+> own notes can link to your saves. Tell me where your vault is and how you sync it
+> (only this computer, iCloud, Obsidian Sync, or a GitHub repo).
 
 - **A:** use the folder the user names, or the default. If it already contains files, stop and ask.
 - **B:** the repo must be **private**. If it doesn't exist, ask the user to create it (private,
   empty) or create it yourself as private. Work in a clone. After each change, commit with a short
   message and push.
+- **C:** confirm the folder is really an Obsidian vault (it has a `.obsidian/` folder at its top).
+  Create `Bookmark Brain/` inside it — or another subfolder name the user picks. If that subfolder
+  already has files, stop and ask. If the vault is synced through a GitHub repo, work in a clone of
+  that repo, commit with a short message after each change and push; Grok needs push access to it.
+  **Only ever touch files inside the subfolder** — never the user's own notes, never the vault's
+  own `.obsidian/` settings.
 
-From here on, that folder is **the vault**.
+From here on, that folder (for C, the `Bookmark Brain/` subfolder) is **the vault**.
+
+**Link prefix.** Obsidian resolves links from its top folder. Write the path from the Obsidian
+vault's top folder down to the vault into `link_prefix` in `.xbrain/config.json` (Step 3):
+empty for A and B, `Bookmark Brain/` for C. Every wiki link you write anywhere in this kit —
+`[[raw/...]]`, `[[interests/...]]`, `[[topics/...]]`, `[[people/...]]`, `[[digests/...]]` — gets
+that prefix in front, e.g. `[[Bookmark Brain/raw/2026-10/...|@author]]`.
 
 ## Step 2 — Lay out the vault
 
@@ -67,6 +82,15 @@ bases/saves.base    Obsidian dashboard: best saves, untried actions, by interest
 ```
 
 Copy files as they are. Don't add extras.
+
+**Option C only (inside an existing vault):**
+- Copy everything **except** `vault-template/.obsidian/` — the user's vault already has its own
+  settings, and Obsidian only reads the one at the top. Never edit the user's `.obsidian/`.
+- In `bases/saves.base`, change `file.inFolder("raw")` to `file.inFolder("Bookmark Brain/raw")`
+  (use the real subfolder name) so the dashboard finds the saves.
+- In `index.md`, add the link prefix to every `[[interests/...]]` link.
+- In Step 8, tell the user they can add graph colours for each interest themselves under
+  Graph view → Groups, using queries like `path:"Bookmark Brain/interests/grants"`.
 
 ## Step 3 — Confirm the interests
 
@@ -106,6 +130,7 @@ For each **new** interest:
 
 Remove any interest folder (and its config entry) the user doesn't want — but keep `other`.
 If the user's X handle or time zone differ from the config, update `x_user` and `timezone`.
+Set `link_prefix` as decided in Step 1 (empty, or e.g. `Bookmark Brain/` for option C).
 
 ## Step 4 — Connect to X (read only)
 
@@ -218,7 +243,8 @@ nobody approves within about 10 minutes. Option B avoids that only if Grok can p
 
 Send the user a short report:
 
-- where the vault is (folder path or repo link), and how to open it in Obsidian ("Open folder as vault")
+- where the vault is (folder path or repo link), and how to open it in Obsidian ("Open folder as vault";
+  for option C it's already there — look for the `Bookmark Brain` folder in the sidebar)
 - how many saves came in, and how many went to each interest
 - anything that failed or was skipped, and why
 - the schedule you set up, or that you left it off and why

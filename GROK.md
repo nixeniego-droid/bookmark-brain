@@ -2,7 +2,8 @@
 
 Grok Bot doesn't read the vault's `AGENTS.md` by itself. Save the **skill** below as a private skill
 named **bookmark-brain**, then add the **routines**. Replace `<VAULT>` with where your vault lives:
-a folder path (e.g. `~/bookmark-brain-vault`) or your private repo (`nixeniego-droid/bookmark-brain-vault`).
+a folder path (e.g. `~/bookmark-brain-vault`, or `<your Obsidian vault>/Bookmark Brain` if it lives inside
+your existing vault) or your private repo (`nixeniego-droid/bookmark-brain-vault`).
 
 > If the vault is a private GitHub repo, Grok needs push access to save notes there (for example a
 > GitHub token limited to that one repo). The built-in GitHub connector has been seen to read repos
@@ -14,7 +15,8 @@ a folder path (e.g. `~/bookmark-brain-vault`) or your private repo (`nixeniego-d
 My Bookmark Brain lives at <VAULT>. It holds every post I've bookmarked on X: one Markdown note per
 save in raw/YYYY-MM/, grouped into interests (interests/<slug>/<slug>.md: a short brief on top, every
 save listed below), plus topics/, people/ and weekly reviews in digests/. The full rules are in
-AGENTS.md at the vault root — read it before answering or writing.
+AGENTS.md in that folder — read it before answering or writing. If it lives inside my bigger
+Obsidian vault, never touch my other notes; prefix wiki links with link_prefix from .xbrain/config.json.
 
 To answer "what did I save about X": read index.md, then the matching interest and topic pages, then
 search raw/ (the summary: line in each note is plain words; try 2-3 wordings). Reply with one line

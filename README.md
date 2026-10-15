@@ -34,7 +34,8 @@ sort them, and offer to keep it fresh with a daily pull and a Sunday review.
 | **A Sunday review** | What you saved this week and 3–5 concrete things to try, each linked to its post. |
 | **Topic and people pages** | For subjects and authors that keep showing up. |
 
-Everything is plain Markdown, so it opens in [Obsidian](https://obsidian.md) (graph view, dashboard)
+Everything is plain Markdown, so it opens in [Obsidian](https://obsidian.md) (graph view, dashboard) —
+as its own vault, or as a `Bookmark Brain/` folder inside the Obsidian vault you already have —
 and any AI tool can read it — Grok Bot, Claude, ChatGPT, Cursor.
 
 ## Set up for
