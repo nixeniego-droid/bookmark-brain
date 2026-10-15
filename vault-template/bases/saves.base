@@ -1,0 +1,52 @@
+filters:
+  and:
+    - file.inFolder("raw")
+properties:
+  note.summary:
+    displayName: Summary
+  note.interest:
+    displayName: Interest
+  note.value:
+    displayName: Value
+  note.status:
+    displayName: Status
+views:
+  - type: table
+    name: Best saves
+    filters:
+      and:
+        - value == 3
+    order:
+      - summary
+      - interest
+      - topics
+      - author
+      - posted
+    sort:
+      - property: posted
+        direction: DESC
+  - type: table
+    name: Actionable, not tried
+    filters:
+      and:
+        - action != null
+        - status == "new"
+        - value >= 2
+    order:
+      - action
+      - interest
+      - summary
+      - posted
+    sort:
+      - property: value
+        direction: DESC
+  - type: table
+    name: By interest
+    groupBy:
+      property: interest
+      direction: ASC
+    order:
+      - summary
+      - topics
+      - value
+      - posted

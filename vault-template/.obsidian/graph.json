@@ -1,0 +1,32 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:interests/ai-tech OR [interest:ai-tech]",
+      "color": { "a": 1, "rgb": 3900150 }
+    },
+    {
+      "query": "path:interests/business-marketing OR [interest:business-marketing]",
+      "color": { "a": 1, "rgb": 15955003 }
+    },
+    {
+      "query": "path:interests/other OR [interest:other]",
+      "color": { "a": 1, "rgb": 9934743 }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 0.4,
+  "collapse-forces": true,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "close": true
+}

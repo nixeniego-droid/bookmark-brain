@@ -1,0 +1,48 @@
+{
+  "owner_name": "nixeniego",
+  "x_user": "nixeniego",
+  "timezone": "Asia/Manila",
+  "topic_page_min_saves": 5,
+  "people_page_min_saves": 5,
+  "max_open_picks_per_interest": 3,
+  "pick_expiry_days": 30,
+  "interests": [
+    {
+      "slug": "ai-tech",
+      "title": "AI & tech",
+      "desc": "AI tools and models, agents, prompts, automations, coding tools, AI image and video",
+      "topics": {
+        "ai-agents": "agents and assistants: Grok, Claude, ChatGPT, computer use, multi-agent setups",
+        "models": "new models, model comparisons, local and open models, pricing and limits",
+        "prompting": "prompt techniques, templates and prompt libraries",
+        "automation": "workflow automation, no-code tools, scheduled jobs, scrapers, integrations",
+        "coding-tools": "AI coding tools, app builders, vibe coding, useful GitHub repos and dev tools",
+        "ai-media": "AI image, video and voice generation tools and workflows",
+        "knowledge-tools": "second brains, note systems, Obsidian, memory and context for AI"
+      }
+    },
+    {
+      "slug": "business-marketing",
+      "title": "Business & marketing",
+      "desc": "business ideas and models, offers, sales, ads and creative, copy, funnels, SEO, audience growth",
+      "topics": {
+        "business-ideas": "business models and ideas: online businesses, apps, info products, AI businesses",
+        "offers-and-sales": "offers, pricing, positioning, client acquisition, outreach and closing",
+        "ads-and-creative": "paid ads, hooks, ad creative, UGC, creative testing, media buying",
+        "copywriting": "copywriting, persuasion, headlines, emails and scripts",
+        "funnels-and-seo": "landing pages, funnels, conversion, SEO and AI search visibility",
+        "content-and-growth": "growing on X and other platforms, writing, short-form video, personal brand",
+        "founder-lessons": "founder stories, mindset, lessons from building"
+      }
+    },
+    {
+      "slug": "other",
+      "title": "Other",
+      "desc": "jokes, memes, bare links and anything that fits nowhere else",
+      "topics": {
+        "humor": "jokes, memes, funny clips",
+        "misc": "anything else, or a bare link with no context"
+      }
+    }
+  ]
+}
