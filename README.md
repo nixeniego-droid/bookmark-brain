@@ -41,14 +41,22 @@ and any AI tool can read it — Grok Bot, Claude, ChatGPT, Cursor.
 
 - **Owner:** [@nixeniego](https://x.com/nixeniego)
 - **Time zone:** Asia/Manila
-- **Interests:** AI & tech · Business & marketing (plus an *Other* bucket for jokes and bare links)
+- **What it tracks:**
+  - **AI & agents** — Grok Bot, Claude, ChatGPT, agents, models, prompts, AI tools
+  - **Marketing tools & automation** — marketing software, automations, AI marketing tools
+  - **SEO & AEO** — search rankings and getting cited by AI answer engines
+  - **Tech startups** — ideas, building, launching, fundraising, founder lessons
+  - **Grants & funding** — startup grants, accelerators, competitions, credit programs, with a deadline tracker
+  - **Other** — everything else (jokes, bare links), so no bookmark is ever dropped
 
 Want different interests? Edit `vault-template/.xbrain/config.json` and the folders under
 `vault-template/interests/`, or just tell Grok during setup.
 
 ## Questions to ask once it's running
 
-- What have I saved about AI agents? Newest first, one line each.
+- What have I saved about Grok Bot? Newest first, one line each.
+- Which startup grants have deadlines in the next 30 days?
+- What AEO tactics have I saved for getting cited by ChatGPT?
 - Pick 3 things from my saves I can finish this week.
 - What do I keep saving but never act on?
 - Find two saves from different interests that solve the same problem.

@@ -39,6 +39,9 @@ saves: <count this week>
 1. <a stance the owner could post, in their voice, no company or client names> — from [[raw/...]]
 … 3 ideas.
 
+## Grant deadlines
+- every grant save with a `deadline:` in the next 30 days: program, amount, deadline, link. Write "none coming up" if empty.
+
 ## Last week's picks
 - [x] / [ ] each open pick from actions.md with its age. Ask: "Which did you do? Reply like 'did 1, dropped 3'."
 
@@ -54,7 +57,7 @@ saves: <count this week>
    `## [YYYY-MM-DD] review | <week>, <n> saves, <k> picks` to `log.md`. If the vault is a git repo,
    commit and push.
 8. Send the owner **one short message** (about 12 lines max): the week and save count, the 3–5
-   "Try these" lines with their X links, "Reply with what you did.", and the review's file path.
+   "Try these" lines with their X links, any grant deadline in the next 14 days, "Reply with what you did.", and the review's file path.
 
 ## Rules
 

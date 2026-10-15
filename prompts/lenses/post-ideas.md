@@ -10,4 +10,4 @@ something about the topic myself.
 2. **5 ideas:** each a one-sentence stance in my voice, linked to the save that sparked it.
    My take, not a rewrite of someone else's post.
 3. **Formats that work:** list, story, hot take, question — whichever got the most replies among my saves, if numbers are visible.
-4. **One crossover:** a post that blends AI & tech with Business & marketing.
+4. **One crossover:** a post that blends two of my interests (e.g. AI agents + AEO).

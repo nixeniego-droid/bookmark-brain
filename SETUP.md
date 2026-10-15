@@ -70,18 +70,23 @@ Copy files as they are. Don't add extras.
 
 ## Step 3 — Confirm the interests
 
-This kit comes set up for **@nixeniego** (time zone `Asia/Manila`) with two interests:
+This kit comes set up for **@nixeniego** (time zone `Asia/Manila`) with these interests:
 
-- **AI & tech** (`ai-tech`) — tools, models, agents, prompts and automations worth trying
-- **Business & marketing** (`business-marketing`) — ideas, offers, ads, copy, funnels and growth
+- **AI & agents** (`ai-agents`) — Grok Bot, Claude, ChatGPT, agents, models, prompts, AI tools
+- **Marketing tools & automation** (`marketing-tools`) — marketing software, automations, AI marketing tools
+- **SEO & AEO** (`seo-aeo`) — search rankings and getting cited by AI answer engines
+- **Tech startups** (`startups`) — ideas, building, launching, fundraising, founder lessons
+- **Grants & funding** (`grants`) — startup grants, accelerators, competitions, credit programs
+- **Other** (`other`) — anything that fits none of the above
 
-plus **Other** (`other`) for jokes, memes and bare links.
+**Every bookmark gets a note.** These interests decide where a save is filed, not whether it is
+kept — a post that fits none of them goes to `other`, never skipped.
 
 Ask:
 
-> Your Bookmark Brain is set up for **AI & tech** and **Business & marketing**. Want to keep those,
-> rename them, or add more (up to about 9)? For any new one, tell me in a few words what you want
-> out of it — e.g. "tools I can try this week" or "ideas for my own offers".
+> Your Bookmark Brain tracks **AI & agents**, **Marketing tools & automation**, **SEO & AEO**,
+> **Tech startups** and **Grants & funding**. Want to keep those as they are, rename any, or add
+> more? For any new one, tell me in a few words what you want out of it.
 
 For each **new** interest:
 
@@ -143,6 +148,10 @@ summary: "<one plain sentence: what this post gives the user>"
 kind: <tool | tactic | idea | resource | news | story | opinion | meme>
 value: <1-3; 3 = specific and worth coming back to>
 action: "<value 3 only: one thing to do in under an hour>"
+deadline: <grants only: YYYY-MM-DD if the post states one>
+amount: "<grants only: as written>"
+eligibility: "<grants only: who can apply, incl. country>"
+apply_url: <grants only: official link>
 status: new
 likes: <n>
 bookmarks: <n>
@@ -214,7 +223,8 @@ Send the user a short report:
 - anything that failed or was skipped, and why
 - the schedule you set up, or that you left it off and why
 - three things to try now:
-  - "What have I saved about AI agents? Newest first."
+  - "What have I saved about Grok Bot? Newest first."
+  - "Which startup grants have deadlines in the next 30 days?"
   - "Pick 3 things from my saves I can finish this week."
   - "Find two saves from different interests that solve the same problem."
 

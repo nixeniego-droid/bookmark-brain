@@ -2,7 +2,7 @@
 type: interest
 saves: 0
 ---
-# AI & tech
+# AI & agents
 
 <!-- compiled -->
 _No saves yet. This brief fills in after the first pull._

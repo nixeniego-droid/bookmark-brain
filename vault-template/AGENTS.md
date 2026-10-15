@@ -22,7 +22,8 @@ follow these rules.
 | `.xbrain/config.json` | Owner details, interests and the fixed topic list | owner |
 
 Searchable fields on raw notes: `id, url, author, posted, saved, interest, also, topics, summary,
-kind, value (1-3), action, status, likes, bookmarks, views`.
+kind, value (1-3), action, status, likes, bookmarks, views`, plus
+`deadline, amount, eligibility, apply_url` on grant saves.
 
 ## Answering a question (cheapest path first)
 
@@ -40,6 +41,8 @@ kind, value (1-3), action, status, likes, bookmarks, views`.
 - **"Give me references for <task>"** → the 5–10 most useful saves, the key line from each, linked.
 - **"Post ideas from my saves"** → read the interest briefs and the latest review; give ideas that
   take a stance, in the owner's voice; never name their companies or clients; link the saves behind each.
+- **"Any grant deadlines coming up?"** → read the Grants & funding page's deadline table, then
+  check `deadline:` on grant notes; list what's due soonest, with amount, eligibility and link.
 - **"What should I act on?"** → open `actions.md` files first, then each page's "Worth trying".
 - **"I tried / did / dropped <thing>"** → tick it in the right `actions.md` (`- [x]` done, `- [-]` dropped),
   set `status:` on the raw note (`tried`, `kept` or `dropped`), and log it.
@@ -47,7 +50,8 @@ kind, value (1-3), action, status, likes, bookmarks, views`.
 ## Writing rules
 
 - **Never edit a raw note's body.** Only `status:` (on the owner's word) and the sorting fields
-  (`interest, also, topics, summary, kind, value, action`) may change.
+  (`interest, also, topics, summary, kind, value, action`, and the grant fields
+  `deadline, amount, eligibility, apply_url`) may change.
 - **Never delete files.**
 - On interest and topic pages, only rewrite the part between `<!-- compiled -->` and
   `<!-- /compiled -->`, and add lines to the `## All saves` list. Leave everything else.

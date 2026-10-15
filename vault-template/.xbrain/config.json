@@ -8,37 +8,74 @@
   "pick_expiry_days": 30,
   "interests": [
     {
-      "slug": "ai-tech",
-      "title": "AI & tech",
-      "desc": "AI tools and models, agents, prompts, automations, coding tools, AI image and video",
+      "slug": "ai-agents",
+      "title": "AI & agents",
+      "desc": "Grok Bot, Claude, ChatGPT and other assistants, AI agents, models, prompts, AI coding and media tools",
       "topics": {
-        "ai-agents": "agents and assistants: Grok, Claude, ChatGPT, computer use, multi-agent setups",
-        "models": "new models, model comparisons, local and open models, pricing and limits",
+        "grok-bot": "Grok Bot and Grok: features, skills, routines, plugins, tips",
+        "claude": "Claude, Claude Code, skills, projects, MCP, Claude workflows",
+        "other-assistants": "ChatGPT, Gemini, Perplexity and other AI assistants",
+        "ai-agents": "agents and agent platforms, computer use, multi-agent setups, autonomous workflows",
+        "models": "new models, comparisons, local/open models, pricing and limits",
         "prompting": "prompt techniques, templates and prompt libraries",
-        "automation": "workflow automation, no-code tools, scheduled jobs, scrapers, integrations",
-        "coding-tools": "AI coding tools, app builders, vibe coding, useful GitHub repos and dev tools",
-        "ai-media": "AI image, video and voice generation tools and workflows",
-        "knowledge-tools": "second brains, note systems, Obsidian, memory and context for AI"
+        "ai-coding": "AI coding tools, app builders, vibe coding, useful GitHub repos",
+        "ai-media": "AI image, video and voice tools"
       }
     },
     {
-      "slug": "business-marketing",
-      "title": "Business & marketing",
-      "desc": "business ideas and models, offers, sales, ads and creative, copy, funnels, SEO, audience growth",
+      "slug": "marketing-tools",
+      "title": "Marketing tools & automation",
+      "desc": "marketing software, marketing automations, AI marketing tools, email/CRM, ad and content tools",
       "topics": {
-        "business-ideas": "business models and ideas: online businesses, apps, info products, AI businesses",
-        "offers-and-sales": "offers, pricing, positioning, client acquisition, outreach and closing",
-        "ads-and-creative": "paid ads, hooks, ad creative, UGC, creative testing, media buying",
-        "copywriting": "copywriting, persuasion, headlines, emails and scripts",
-        "funnels-and-seo": "landing pages, funnels, conversion, SEO and AI search visibility",
-        "content-and-growth": "growing on X and other platforms, writing, short-form video, personal brand",
-        "founder-lessons": "founder stories, mindset, lessons from building"
+        "marketing-software": "marketing platforms and SaaS: all-in-one suites, analytics, social schedulers",
+        "marketing-automation": "automation workflows: n8n, Zapier, Make, AI agents doing marketing tasks",
+        "ai-marketing-tools": "AI tools for copy, ads, creatives, UGC, content generation",
+        "email-and-crm": "email marketing, outreach tools, CRMs, deliverability",
+        "ads-tools": "ad platforms and tools, ad creative tools, tracking and attribution",
+        "content-and-social": "content creation, social growth tools and tactics, short-form video"
+      }
+    },
+    {
+      "slug": "seo-aeo",
+      "title": "SEO & AEO",
+      "desc": "SEO and AEO/GEO: ranking in search and getting cited by AI answer engines",
+      "topics": {
+        "aeo-geo": "answer engine / generative engine optimization: being cited by ChatGPT, Perplexity, AI Overviews, Grok, Claude",
+        "technical-seo": "site speed, indexing, schema, crawling, site structure",
+        "content-seo": "keyword research, content strategy, on-page optimization",
+        "links-and-authority": "backlinks, digital PR, brand mentions, authority",
+        "local-seo": "Google Business Profile, local rankings, reviews",
+        "seo-tools": "SEO and AEO tools and trackers"
+      }
+    },
+    {
+      "slug": "startups",
+      "title": "Tech startups",
+      "desc": "tech startups, ideas, founder lessons, building and launching, fundraising, startup news",
+      "topics": {
+        "startup-ideas": "startup and product ideas, markets, opportunities",
+        "building-and-launch": "building MVPs, product, launching, getting first users",
+        "fundraising": "VC and angel funding, pitch decks, investors (equity)",
+        "founder-lessons": "founder stories, mindset, mistakes and lessons",
+        "startup-news": "startup news, acquisitions, trends, ecosystem (incl. Philippines/SEA)"
+      }
+    },
+    {
+      "slug": "grants",
+      "title": "Grants & funding",
+      "desc": "startup grants, non-dilutive funding, accelerators, pitch competitions, credit programs",
+      "topics": {
+        "startup-grants": "grants and non-dilutive funding for startups",
+        "accelerators": "accelerators, incubators, fellowships",
+        "competitions": "pitch competitions, hackathons with prizes, awards",
+        "government-programs": "government startup programs and funding (incl. Philippines DOST, DTI, DICT)",
+        "credits-and-perks": "free cloud, AI API and software credit programs for startups"
       }
     },
     {
       "slug": "other",
       "title": "Other",
-      "desc": "jokes, memes, bare links and anything that fits nowhere else",
+      "desc": "anything that fits none of the interests above: jokes, memes, bare links, personal",
       "topics": {
         "humor": "jokes, memes, funny clips",
         "misc": "anything else, or a bare link with no context"

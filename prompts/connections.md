@@ -7,7 +7,8 @@ Run whenever you like. Read the vault's `AGENTS.md` first.
    - make the same point in different words,
    - solve the same problem, or
    - contradict each other.
-   (With AI & tech and Business & marketing, the classic pair is a new tool + a business problem it could solve.)
+   (Good pairs to look for: an AI tool + a marketing automation it could power; an SEO/AEO tactic + a
+   startup idea; a grant + a startup idea it could fund.)
 3. For each pair: link both notes, name the link between them in one sentence, and suggest one thing
    the owner could try or build because of it.
 4. Save the result to `digests/connections-<YYYY-MM-DD>.md` and show it to the owner.

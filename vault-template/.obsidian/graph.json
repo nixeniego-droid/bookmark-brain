@@ -8,16 +8,46 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:interests/ai-tech OR [interest:ai-tech]",
-      "color": { "a": 1, "rgb": 3900150 }
+      "query": "path:interests/ai-agents OR [interest:ai-agents]",
+      "color": {
+        "a": 1,
+        "rgb": 3900150
+      }
     },
     {
-      "query": "path:interests/business-marketing OR [interest:business-marketing]",
-      "color": { "a": 1, "rgb": 15955003 }
+      "query": "path:interests/marketing-tools OR [interest:marketing-tools]",
+      "color": {
+        "a": 1,
+        "rgb": 15955003
+      }
+    },
+    {
+      "query": "path:interests/seo-aeo OR [interest:seo-aeo]",
+      "color": {
+        "a": 1,
+        "rgb": 4569209
+      }
+    },
+    {
+      "query": "path:interests/startups OR [interest:startups]",
+      "color": {
+        "a": 1,
+        "rgb": 16098851
+      }
+    },
+    {
+      "query": "path:interests/grants OR [interest:grants]",
+      "color": {
+        "a": 1,
+        "rgb": 6080604
+      }
     },
     {
       "query": "path:interests/other OR [interest:other]",
-      "color": { "a": 1, "rgb": 9934743 }
+      "color": {
+        "a": 1,
+        "rgb": 9934743
+      }
     }
   ],
   "collapse-display": true,
